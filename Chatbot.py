@@ -61,6 +61,10 @@ def getResponse(question, pq):
             else:
                 resp = "Ready for sports questions"
 
+
+        elif "actor" in question:
+            resp
+
         elif question == "ask me a question" or pq == "ask me a question":         
             if pq == "ask me a question":
                 Goodresponses = ["Great", "Awesome!", "Amazing!", "Brilliant!", "Fantastic!"]
